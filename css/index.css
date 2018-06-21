@@ -1,0 +1,64 @@
+.h-title {
+    width: 100%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    background: #800080;    
+}
+
+.h-title h1 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.h-top {
+    display: flex;
+    height: 1.2rem;
+    padding: .28rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-top img {
+    width: 2.267rem;
+    height: 1.187rem;
+}
+
+.apply {
+    display: block;
+    width: 1.867rem;
+    height: .667rem;
+    line-height: .667rem;
+    text-align: center;
+    font-size: 14px;
+    background: #800080;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.nav-tab {
+    display: flex;
+    width: 100%;
+    height: .933rem;
+    padding: 0 .28rem;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-tab li {
+    position: relative;
+    margin-top: .327rem;
+    flex-direction: column;
+}
+
+.nav-tab li.cur:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: .107rem;
+    background: #800080;
+}
